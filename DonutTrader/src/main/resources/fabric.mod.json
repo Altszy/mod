@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "donut-trader",
+  "version": "3.0.0",
+  "name": "DonutTrader Pro",
+  "description": "High-frequency AH trader for DonutSMP",
+  "authors": ["Trader"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/donut-trader/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.donuttrader.DonutTraderMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
